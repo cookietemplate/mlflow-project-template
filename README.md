@@ -32,6 +32,7 @@ mlflow run .
 │   └── raw                 # The original, immutable data dump.
 ├── docs                # Documentation for the project.(e.g. data dictionaries, manuals, etc., Markdown)
 ├── src                 # Source code for use in this project.
+├── scripts             # Scripts for common tasks, e.g. running the model.
 ├── notebooks           # Jupyter notebooks. Naming convention is a number (for ordering, e.g., 01.preprocess.ipynb, 02.train.ipynb, 03.evaluate.ipynb, etc.)
 ├── references          # Papers, reference manuals, and all other explanatory materials.
 ├── reports             # Reports and presentations.(e.g. md, pdf, html, etc.)
