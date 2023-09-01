@@ -1,0 +1,10 @@
+# dev dependencies
+# ci
+pdoc
+nox
+pre-commit
+# linting
+ruff
+black
+mypy
+isort

@@ -1,0 +1,12 @@
+name: example
+conda_env: conda_env.yaml
+
+entry_points:
+  main:
+    parameters:
+      name: {
+        description: "Name of the experiment",
+        type: STRING,
+        default: "experiment"
+      }
+    command: "python main.py --name {name}"
